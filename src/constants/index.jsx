@@ -1,22 +1,15 @@
-import { BotMessageSquare, BrickWall, Building, Drill, PaintRoller, PaintRollerIcon, ThermometerSun } from "lucide-react";
+import { BotMessageSquare, BrickWall, Building, Drill, HardHat, HousePlus, Lightbulb, PaintRoller, PaintRollerIcon, ThermometerSun } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
-
 export const navItems = [
-  { label: "Startseite", href: "#" },
+  { label: "Startseite", href: "/home" },
   { label: "Unsere Leistungen", href: "#servicesSection" },
   { label: "Unternehmen", href: "#about" },
-  { label: "Projekte", href: "#" },
+  { label: "Projekte", href: "#projects" },
   { label: "Kontakt", href: "#contactForm" },
 ];
 
@@ -26,95 +19,55 @@ export const features = [
     icon: <PaintRoller />,
     text: "Malerarbeiten",
     description:
-      "Innenanstriche, Fassadenanstriche, Lackierarbeiten, Tapezierarbeiten, Spachtelarbeiten",
+      `Unser Malerteam bietet eine breite Palette an Dienstleistungen, um Ihre Innen- und Außenbereiche zu verschönern und zu schützen. 
+      Von Innenanstrichen über Fassadenanstriche bis hin zu Lackierarbeiten und Tapezierarbeiten – wir verwenden nur die besten Materialien und Techniken, 
+      um ein makelloses und langlebiges Finish zu gewährleisten. 
+      Unsere Spachtelarbeiten sorgen für perfekt glatte Oberflächen, die jeder Wand ein hochwertiges Aussehen verleihen.`,
   },
   {
     icon: <Drill />,
     text: "Trockenbau",
     description:
-      "Trockenbau-Wandsysteme, Trockenbau-Deckensysteme, Dachgeschossausbau, Sonderkonstruktion, Systemwände",
+      `Unser Trockenbau-Service umfasst die Erstellung von Wandsystemen, Deckensystemen und den Ausbau von Dachgeschossen. 
+      Egal, ob Sie eine neue Wand, eine abgehängte Decke oder eine Sonderkonstruktion benötigen – wir bieten maßgeschneiderte Lösungen, die Ihren Anforderungen entsprechen. 
+      Mit unseren Systemwänden schaffen wir flexible und funktionale Raumaufteilungen, die Ihren individuellen Bedürfnissen gerecht werden.`,
   },
   {
-    icon: <ShieldHalf />,
+    icon: <HardHat />,
     text: "Stuck- und Putzarbeiten",
     description:
-      "Innenputz, Außenputz, Kalkputze, Lehmputze und Modellierputze",
-  },
-  {
-    icon: <ThermometerSun />,
-    text: "Wärmedämmung",
-    description:
-      "Wärmedämmverbundsysteme, Außendämmung, Innendämmung",
+      `Mit unseren Stuck- und Putzarbeiten verleihen wir Ihren Innen- und Außenbereichen eine besondere Note. 
+      Wir bieten dekorative Stuckelemente für Decken und Fassaden sowie verschiedene Putzarten wie Innenputz, Außenputz, Kalkputze, Lehmputze und Modellierputze an. 
+      Unsere hochwertigen Materialien und präzise Handwerkskunst sorgen für langlebige und ästhetisch ansprechende Ergebnisse.`,
   },
   {
     icon: <Building />,
     text: "Fassadentechnik",
     description:
-      "ASDASFAASDGADSFASDASD",
+      `Unsere Fassadentechnik umfasst innovative Lösungen zur Verschönerung und Dämmung Ihrer Gebäudefassade. 
+      Von der Fassadeverkleidung über Wärmedämmverbundsysteme bis hin zu Außen- und Innendämmungen – wir bieten umfassende Dienstleistungen, 
+      die sowohl die Energieeffizienz als auch die Optik Ihrer Immobilie verbessern. 
+      Unsere Experten beraten Sie individuell und finden die optimale Lösung für Ihre Fassade.`,
   },
   {
-    icon: <GlobeLock />,
+    icon: <HousePlus />,
     text: "Fassadensanierung",
     description:
-      "ASDASDASDASDASDASDA",
+      `Bei der Fassadensanierung legen wir besonderen Wert auf Energieeffizienz und Nachhaltigkeit. 
+      Durch den Einsatz modernster Techniken und Materialien sanieren wir Ihre Fassade fachgerecht und sorgen dafür, dass Ihr Gebäude energetisch auf dem neuesten Stand ist. 
+      Unsere Sanierungsmaßnahmen tragen nicht nur zur Reduzierung Ihrer Energiekosten bei, sondern erhöhen auch den Wert und die Lebensdauer Ihrer Immobilie.`,
+  },
+  {
+    icon: <Lightbulb />,
+    text: "Optimierung und Beratung",
+    description:
+      `Unser Service umfasst umfassende Beratungs- und Optimierungsleistungen für Ihre Bau- und Renovierungsprojekte. 
+      Wir analysieren Ihre Bedürfnisse und bieten maßgeschneiderte Lösungen, die sowohl ästhetisch als auch funktional überzeugen. 
+      Unser Ziel ist es, Ihre Visionen zu realisieren und gleichzeitig die Effizienz und Nachhaltigkeit Ihrer Projekte zu maximieren. 
+      Vertrauen Sie auf unsere Expertise und Erfahrung für optimale Ergebnisse.`,
   },
 ];
 
-export const checklistItems = [
-  {
-    title: "Code merge made easy",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "Review code without worry",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "AI Assistance to reduce time",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "Share work in minutes",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-];
-
-export const pricingOptions = [
-  {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
-  },
-];
 
 export const resourcesLinks = [
   { href: "#", text: "Getting Started" },
@@ -133,6 +86,6 @@ export const platformLinks = [
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Impressum" },
-  { href: "#", text: "Datenschutz" }
+  { href: "/impressum", text: "Impressum" },
+  { href: "/datenschutz", text: "Datenschutz" }
 ];
