@@ -5,20 +5,20 @@ import { RxDotFilled } from 'react-icons/rx';
 const Projects = () => {
   const slides = [
     {
-      url: '../src/assets/oberwaldschule2.jpg',
+      url: '/assets/oberwaldschule2.jpg',
       caption: 'Oberwaldschule Grebenhain'
     },
     {
-      url: '../src/assets/oberwaldschule3.jpg',
+      url: '/assets/oberwaldschule3.jpg',
       caption: 'Oberwaldschule Grebenhain'
     },
     {
-      url: '../src/assets/IMG-20230513-WA0005.jpg',
+      url: '/assets/IMG-20230513-WA0005.jpg',
       caption: 'Siemens'
     },
 
     {
-      url: '../src/assets/IMG-20230513-WA0007.jpg',
+      url: '/assets/IMG-20230513-WA0007.jpg',
       caption: 'Siemens'
     },
   ];

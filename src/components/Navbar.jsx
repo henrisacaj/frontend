@@ -1,7 +1,7 @@
 import React from 'react'
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
-import logo from "../assets/Logo_Google.png";
+import logo from "/assets/Logo_Google.png";
 import { navItems } from "../constants";
 const Navbar = () => {
 
