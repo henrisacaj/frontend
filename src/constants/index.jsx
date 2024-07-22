@@ -1,4 +1,4 @@
-import { BotMessageSquare, BrickWall, Building, Drill, HardHat, HousePlus, Lightbulb, PaintRoller, PaintRollerIcon, ThermometerSun } from "lucide-react";
+import { BadgeEuro, BotMessageSquare, BrickWall, Building, CircleUserRound, Drill, HardHat, HousePlus, Lightbulb, ListChecks, PaintRoller, PaintRollerIcon, ThermometerSun } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
@@ -10,6 +10,7 @@ export const navItems = [
   { label: "Unsere Leistungen", href: "#servicesSection" },
   { label: "Unternehmen", href: "#about" },
   { label: "Projekte", href: "#projects" },
+  { label: "Karriere", href: "#career" },
   { label: "Kontakt", href: "#contactForm" },
 ];
 
@@ -68,21 +69,40 @@ export const features = [
   },
 ];
 
-
-export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
-];
-
-export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+export const jobAdversiment = [
+  {
+    icon: <ListChecks />,
+    text: "Ihre Aufgaben:",
+    items: [
+        "Durchführung von Maler- und Lackierarbeiten im Innen- und Außenbereich",
+        "Vorbereitung der Arbeitsflächen (Schleifen, Spachteln, Grundieren)",
+        "Tapezierarbeiten",
+        "Gestaltung und Instandhaltung von Oberflächen",
+        "Anwendung verschiedener Maltechniken"
+    ]
+  },
+  {
+    icon: <CircleUserRound />,
+    text: "Ihr Profil:",
+    items: [
+      "Abgeschlossene Berufsausbildung als Maler und Lackierer oder vergleichbare Qualifikation",
+      "Berufserfahrung in den oben genannten Tätigkeitsfeldern von Vorteil",
+      "Sorgfältige und selbstständige Arbeitsweise",
+      "Teamfähigkeit und Zuverlässigkeit",
+      "Gute Deutschkenntnisse"
+    ]  
+  },
+  {
+    icon: <BadgeEuro />,
+    text: "Wir bieten:",
+    items: [
+      "Ein unbefristetes Arbeitsverhältnis",
+      "Attraktive Vergütung und Sozialleistungen",
+      "Ein motiviertes und freundliches Team",
+      "Vielfältige und abwechslungsreiche Projekte",
+      "Möglichkeiten zur beruflichen Entwicklung"
+    ]
+  }
 ];
 
 export const communityLinks = [

@@ -7,23 +7,21 @@ import AnimatedCounter from '../components/AnimatedCounter'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Projects from '../components/Projects'
+import Career from '../components/Career'
 
 
 const Home = () => {
-    const [darkMode, setDarkMode] = useState(false)
     
-    const toggleDarkMode = () => {
-        setDarkMode(!darkMode)
-    }
   return (
     <>
       <Navbar />
-      <div className={`${darkMode ? "dark" : ""} max-w-full mx-auto pt-20 px-6`}>
+      <div className="max-w-full mx-auto pt-20 px-6">
         <HeroSection />
         <ServicesSection />
         <About />
         <AnimatedCounter />
         <Projects />
+        <Career />
         <Contact />
         <Footer />
       </div>
