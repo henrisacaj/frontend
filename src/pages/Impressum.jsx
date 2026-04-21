@@ -15,7 +15,6 @@ const Impressum = () => {
             <br />
             Sacaj Baudesign (Einzelunternehmer)
             <br />
-            In den Aueg&auml;rten 18
             <br />
             36037 Fulda
           </p>
