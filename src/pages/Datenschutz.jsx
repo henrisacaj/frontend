@@ -150,7 +150,6 @@ const Datenschutz = () => {
           <p>
             Sacaj Baudesign
             <br />
-            In den Auegärten 18
             <br />
             36037 Fulda
           </p>

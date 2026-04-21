@@ -8,7 +8,6 @@ const Footer = () => {
             <h3 className="text-md font-semibold mb-4">Anschrift</h3>
             <p className="text-neutral-300">
               Sacaj Baudesign <br />
-              In den Auegärten <br />
               36037 Fulda
             </p>
           </div>
